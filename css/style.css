@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 img {
@@ -33,7 +33,7 @@ img {
 
 .header a {
     display: inline-block;
-    background: #26561F;
+    background: rgb(38, 86, 31);
     color: rgb(255, 255, 255);
     align-self: flex-start;
     padding: 8px 18px;
@@ -102,7 +102,7 @@ img {
     align-items: center;
     outline: none;
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
     cursor: pointer;
     border-radius: 5px;
@@ -131,7 +131,6 @@ img {
 .section {
     background: rgb(80, 95, 83);;
     padding: 3rem 0;
-    /* border-top: 8px solid rgb(23, 83, 23); */
     border-top: 8px solid rgb(27, 27, 27);
 }
 
@@ -184,28 +183,28 @@ section p {
     order: 1;
 }
 
-.faq {
+.aboutUs {
     width: 100%;
 }
 
-.faq h1 {
+.aboutUs h1 {
     text-align: center;
 }
 
-.faq-list {
+.aboutUs-list {
     margin: 50px auto;
     max-width: 815px;
     font-size: 26px;
     background: rgb(80, 95, 83)
 }
 
-.faq-question,
-.faq-answer {
+.aboutUs-question,
+.aboutUs-answer {
     background: rgb(34, 33, 33);
     border-radius: 8px;
 }
 
-.faq-question {
+.aboutUs-question {
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
@@ -216,7 +215,7 @@ section p {
     border-radius: 8px;
 }
 
-.faq-question::after {
+.aboutUs-question::after {
     content: "";
     display: block;
     width: 20px;
@@ -225,23 +224,23 @@ section p {
     transform: rotate(45deg);
 }
 
-.faq-question.active::after {
+.aboutUs-question.active::after {
     transform: rotate(0deg);
 }
 
-.faq-answer {
+.aboutUs-answer {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }
 
-.faq-answer > div {
+.aboutUs-answer > div {
     padding: 30px;
     text-align: justify;
     font-size: 22px;
 }
 
-.faq-answer.active {
+.aboutUs-answer.active {
     max-height: 1200px;
 }
 
@@ -316,7 +315,7 @@ section p {
     .form-cta {
         width: 100%;
         grid-template-columns: 1fr;
-        background-color: #26561F;
+        background-color: rgb(38, 86, 31);
         gap: 10px;
         margin-top: 10px;
         max-width: 80vw;
@@ -361,24 +360,24 @@ section p {
         grid-template-columns: 1fr;
     }
 
-    .faq-list {
+    .aboutUs-list {
         margin-top: 22px;
     }
 
-    .faq-question,
-    .faq-answer {
+    .aboutUs-question,
+    .aboutUs-answer {
         font-size: 18px;
     }
 
-    .faq-question {
+    .aboutUs-question {
         padding: 16px 22px;
     }
 
-    .faq-question::after {
+    .aboutUs-question::after {
         background-size: 15px;
     }
 
-    .faq-answer > div {
+    .aboutUs-answer > div {
         padding: 21px;
     }
 }

@@ -24,5 +24,5 @@ class Accordion {
     }
 }
 
-const accordion = new Accordion(".faq-question");
+const accordion = new Accordion(".aboutUs-question");
 accordion.init();
