@@ -95,19 +95,20 @@ img {
     border: 10px;
 }
 
-.form-cta button {
+.form-cta a {
     background: rgb(57, 102, 66);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
     outline: none;
     border: none;
     color: white;
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size: 28px;
     cursor: pointer;
     border-radius: 5px;
-
 }
 
-.form-cta button:hover {
+.form-cta a:hover {
     background: rgb(56,119, 05);
     border-radius: 5px;
 }
@@ -125,7 +126,6 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 100;
 }
 
 .section {
@@ -250,7 +250,7 @@ section p {
 }
 
 .footer {
-    padding: 4rem 0 2rem 0;
+    padding: 20vh 0 10vh 0;
     background: rgb(80, 95, 83);
     border-top: 8px solid rgb(11, 12, 11);
     text-align: center;
@@ -329,14 +329,14 @@ section p {
        border-radius: 5px;
     }
 
-    .form-cta button {
+    .form-cta a {
         font-size: 16px;
         justify-self: center;
         padding: 4px 16px 8px 16px;
         border-radius: 5px;
     }
 
-    .form-cta button::after {
+    .form-cta a::after {
         margin-left: 5px;
         background-repeat: no-repeat;
         background-position: bottom center;
