@@ -14,7 +14,6 @@ img {
     max-width: 100%;
 }
 
-
 .container {
     max-width: 1130px;
     margin: 0 auto;
@@ -32,7 +31,6 @@ img {
 }
 
 .header a {
-    display: inline-block;
     background: rgb(38, 86, 31);
     color: rgb(255, 255, 255);
     align-self: flex-start;
@@ -130,7 +128,7 @@ img {
 
 .section {
     background: rgb(80, 95, 83);;
-    padding: 3rem 0;
+    padding: 1rem 0;
     border-top: 8px solid rgb(27, 27, 27);
 }
 
@@ -290,6 +288,10 @@ section p {
         padding: 4px 8px;
     }
 
+    .logoRec, .entrar {
+        display: none;
+    }
+
     .main {
         height: 500px;
     }
@@ -315,7 +317,6 @@ section p {
     .form-cta {
         width: 100%;
         grid-template-columns: 1fr;
-        background-color: rgb(38, 86, 31);
         gap: 10px;
         margin-top: 10px;
         max-width: 80vw;
